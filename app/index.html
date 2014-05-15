@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Annie & Tim's Wedding</title>
+    <link href="css/min/app.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato|Gentium+Basic' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="row">
+      <div class="small-12 columns">
+      <h1>Annie <span>&</span> Tim's Wedding</h1>
+        <!-- <ul class="inline-list">
+          <li><a href="#wedding">Wedding</a></li>
+          <li><a href="#venue">Venue</a></li>
+          <li><a href="#accomodation">Accommodation</a></li>
+          <li><a href="#travel">Travel</a></li>
+          <li><a href="#local">Local Info</a></li>
+          <li><a href="#info">Extra Info</a></li>
+        </ul> -->
+
+        <a name="wedding"></a>
+        <p>Welcome Message</p>
+
+        <a name="venue"></a>
+        <h3>Venue</h3>
+        helloooo
+
+        test
+        
+        <a name="accommodation"></a>
+        <h3>Accommodation</h3>
+        
+        <a name="travel"></a>
+        <h3>Travel</h3>
+
+        <div class="row">
+          <div class="small-12 medium-4 columns">
+            <h6>Flights</h6>
+          </div>
+          <div class="small-12 medium-4 columns">
+            <h6>Boats</h6>
+            <p>If you'd like to drive over, there are a number of sailings from Cork or the UK</p>
+            <h6>Trains</h6>
+            <p>The nearest station is - -, </p>
+          </div>
+          <div class="small-12 medium-4 columns">
+            <h6>Getting Around</h6>
+            <p>Once there, the only viable option is by car. Chances are if you've taken a boat or plane you'll hae rented a car at the point of entry.</p>
+          </div>
+        </div>
+
+        <h6>Location</h6>
+        <div id="map"></div>
+
+        <a name="local"></a>
+        <h3>Local Info</h3>
+
+        <a name="info"></a>
+        <h3>Extra Info</h3>
+
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUYxdTL2YNbWr0j_o-qsld4_Gf6fy7XTA&sensor=false"></script>
+    
+    <script type="text/javascript">
+
+            google.maps.event.addDomListener(window, 'load', init);
+        
+            function init() {
+
+              var chateau = new google.maps.LatLng(45.148249,2.053758);
+
+              var mapOptions = {
+
+                  zoom: 11,
+
+                  center: chateau, 
+
+                  styles: [
+    {
+        "featureType": "water",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#ddd"
+            },
+            {
+              "lightness": 0
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+              "lightness": 100
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#FFF"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#01487e"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#FFF"
+            },
+            {
+                "lightness": 0
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#FFF"
+            },
+            {
+                "lightness": -17
+            }
+        ]
+    },
+    {
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "color": "#ffffff"
+            },
+            {
+                "visibility": "on"
+            },
+            {
+                "weight": 0.9
+            }
+        ]
+    },
+    {
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#01487e"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#FFF"
+            },
+            {
+                "lightness": -10
+            }
+        ]
+    },
+    {},
+    {
+        "featureType": "administrative",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#FFF"
+            },
+            {
+                "weight": 0.7
+            }
+        ]
+    }
+]
+
+
+
+              };
+
+              var mapElement = document.getElementById('map');
+
+              var map = new google.maps.Map(mapElement, mapOptions);
+
+              var marker = new google.maps.Marker({
+                  position: chateau,
+                  map: map,
+                  title:"Chateau Cautine"
+              });
+
+            }
+        </script>
+  </body>
+</html>
