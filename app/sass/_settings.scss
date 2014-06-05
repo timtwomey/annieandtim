@@ -33,7 +33,7 @@
 // $include-html-grid-classes: $include-html-classes;
 // $include-xl-html-grid-classes: false;
 
-// $row-width: rem-calc(1000);
+$row-width: rem-calc(800);
 // $total-columns: 12;
 
 // Global
@@ -42,6 +42,7 @@
 $body-bg: #FFF;
 // $body-font-color: #222;
 $body-font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+$body-font-family: 'Source Sans Pro', sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 

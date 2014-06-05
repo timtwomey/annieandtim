@@ -97,6 +97,9 @@ table {
   }
 
 }
+a {
+  font-weight: bold;
+}
 
 #map {
   width: 100%;
@@ -105,4 +108,15 @@ table {
 }
 #map img {
     max-width: none;
+}
+.accommodation-list {
+  li {
+    a {
+      display: block;
+      font-size: rem-calc($rem-base);
+    }
+    color: #666;
+    font-size: rem-calc($rem-base*0.85);
+    margin-bottom: $rem-base/2;
+  }
 }

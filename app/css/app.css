@@ -456,7 +456,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -534,7 +534,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5rem;
+  max-width: 50rem;
   *zoom: 1;
 }
 .row:before, .row:after {
@@ -3341,6 +3341,10 @@ table tbody tr td {
   padding: 8px 0;
 }
 
+a {
+  font-weight: bold;
+}
+
 #map {
   width: 100%;
   height: 500px;
@@ -3349,4 +3353,14 @@ table tbody tr td {
 
 #map img {
   max-width: none;
+}
+
+.accommodation-list li {
+  color: #666;
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+}
+.accommodation-list li a {
+  display: block;
+  font-size: 1rem;
 }
