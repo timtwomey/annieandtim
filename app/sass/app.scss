@@ -23,12 +23,12 @@
 @import "../../bower_components/foundation/scss/foundation/components/block-grid";
 // @import "../../bower_components/foundation/scss/foundation/components/breadcrumbs";
 // @import "../../bower_components/foundation/scss/foundation/components/button-groups";
-// @import "../../bower_components/foundation/scss/foundation/components/buttons";
+@import "../../bower_components/foundation/scss/foundation/components/buttons";
 @import "../../bower_components/foundation/scss/foundation/components/clearing";
 // @import "../../bower_components/foundation/scss/foundation/components/dropdown";
 // @import "../../bower_components/foundation/scss/foundation/components/dropdown-buttons";
 // @import "../../bower_components/foundation/scss/foundation/components/flex-video";
-// @import "../../bower_components/foundation/scss/foundation/components/forms";
+@import "../../bower_components/foundation/scss/foundation/components/forms";
 @import "../../bower_components/foundation/scss/foundation/components/inline-lists";
 // @import "../../bower_components/foundation/scss/foundation/components/joyride";
 // @import "../../bower_components/foundation/scss/foundation/components/keystrokes";
@@ -60,10 +60,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 body {
   background: url("../../img/bg.jpg");
-  background-size: rem-calc(640);
+  background-size: rem-calc(480);
   background-repeat: repeat-x;
-  background-position: center -16px;
-  padding-top: 210px;
+  background-position: center -2px;
 }
 
 h1 {
@@ -71,6 +70,7 @@ h1 {
     font-size: 25px;
     vertical-align: middle;
   }
+  margin-bottom: 0;
 }
 table {
   width: 100%;
@@ -98,16 +98,41 @@ table {
 
 }
 a {
-  font-weight: bold;
+  //font-weight: bold;
 }
 
 #map {
   width: 100%;
   height: 500px;
-  border: 10px solid #eee;
+  border: 1px solid #eee;
 }
 #map img {
     max-width: none;
+}
+#sticky {
+  padding: $rem-base 0;
+  display: block;
+  width: 100%;
+  background: white;
+  z-index: 9999;
+}
+#content {
+  display: block;
+}
+.rsvp-button {
+  position: absolute;
+  top: -143px;
+  right: 2px;
+  width: 168px;
+  height: 100px;
+  background: url("../../img/rsvp.svg");
+  background-size: 160px 100px;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.main-content {
+  margin-top: 160px;
+  margin-bottom: 270px;
 }
 .accommodation-list {
   li {

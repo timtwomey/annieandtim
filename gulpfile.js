@@ -11,8 +11,9 @@ gulp.task('default', function () {
     gulp.start('build');
 });
 
-gulp.task('test', function () {
-
+gulp.task('php', function () {
+    gulp.src(['app/*.php'])
+        .pipe(gulp.dest('dist'));
 });
 
 
@@ -44,7 +45,7 @@ gulp.task('pages', function () {
         .pipe(gulp.dest('dist'));
 });
 
-gulp.task('build', ['scripts', 'styles', 'pages']);
+gulp.task('build', ['scripts', 'styles', 'pages', 'php']);
 
 gulp.task('server', function () {
     var connect = require('connect'),
