@@ -62,7 +62,15 @@ body {
   background: url("../../img/bg.jpg");
   background-size: rem-calc(480);
   background-repeat: repeat-x;
-  background-position: center -2px;
+  background-position: center -70px;
+  @media #{$medium-up} {
+    background-position: center -2px;
+  }
+  cursor: url('../../img/baguette-cursor-dark.gif'), auto;
+  padding-top: 60px;
+  @media #{$medium-up} {
+    padding-top: 145px;
+  }
 }
 
 h1 {
@@ -71,6 +79,10 @@ h1 {
     vertical-align: middle;
   }
   margin-bottom: 0;
+  font-size: rem-calc(24);
+  @media #{$medium-up} {
+    font-size: rem-calc(32);
+  }
 }
 table {
   width: 100%;
@@ -97,8 +109,15 @@ table {
   }
 
 }
-a {
+a:active,  a:link {
   //font-weight: bold;
+  cursor: url('../../img/baguette-cursor.gif'), auto;
+}
+a:hover {
+  text-decoration: underline;
+  &.no-decoration:hover {
+    text-decoration: none;
+  }
 }
 
 #map {
@@ -118,11 +137,12 @@ a {
 }
 #content {
   display: block;
+  margin-top: $rem-base*1.5;
 }
 .rsvp-button {
   position: absolute;
-  top: -143px;
-  right: 2px;
+  top: 16px;
+  right: 8px;
   width: 168px;
   height: 100px;
   background: url("../../img/rsvp.svg");
@@ -130,9 +150,12 @@ a {
   background-repeat: no-repeat;
   background-position: left top;
 }
+.navigation {
+  margin-bottom: 0;
+}
 .main-content {
-  margin-top: 160px;
   margin-bottom: 270px;
+    
 }
 .accommodation-list {
   li {
@@ -144,4 +167,13 @@ a {
     font-size: rem-calc($rem-base*0.85);
     margin-bottom: $rem-base/2;
   }
+}
+.wobble {
+  width: 120px;
+  height: 120px;
+  margin: 0 0 $rem-base $rem-base;
+  float: right;
+  display: block;
+  background: transparent no-repeat;
+  background-size: 120px;
 }

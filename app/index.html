@@ -1,457 +1,504 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Annie & Tim's Wedding</title>
-        <link href="css/min/app.css" rel="stylesheet" type="text/css">
-        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
-        </head>
-        <body>
-          <a href="#rsvp" class="scroll-to rsvp-button"></a>
-          <div class="row main-content">
-              <div class="small-12 columns">
-                  <div id="sticky"> 
-                    <a href="#"><h1>Annie <span>&</span> Tim's Wedding</h1></a>
-                    <ul class="inline-list navigation">
-                      <li><a href="#welcome" class="scroll-to">Home</a></li>
-                      <li><a href="#location" class="scroll-to">Location</a></li>
-                      <li><a href="#travel" class="scroll-to">Travel</a></li>
-                      <li><a href="#accommodation" class="scroll-to">Accommodation</a></li>
-                      <li><a href="#info" class="scroll-to">Local Info</a></li>
-                      <li><a href="#rsvp" class="scroll-to">RSVP</a></li>
-                    </ul>
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annie & Tim's Wedding</title>
+    <link href="css/min/app.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>      
+  </head>
+  
+  <body>
+    <a href="#rsvp" class="scroll-to rsvp-button hide-for-small"></a>
+    <div class="row main-content">
+        <div class="small-12 columns">
+            <div id="sticky"> 
+              <a href="#" class="no-decoration"><h1>Annie <span>&</span> Tim's Wedding</h1></a>
+              <ul class="inline-list navigation">
+                <li><a href="#welcome" class="scroll-to hide-for-small">Home</a></li>
+                <li><a href="#location" class="scroll-to hide-for-small">Location</a></li>
+                <li><a href="#travel" class="scroll-to hide-for-small">Travel</a></li>
+                <li><a href="#accommodation" class="scroll-to hide-for-small">Accommodation</a></li>
+                <li><a href="#info" class="scroll-to hide-for-small">Local Info</a></li>
+                <li><a href="#rsvp" class="scroll-to hide-for-small">RSVP</a></li>
+                <li><a href="#menu" class="hide-for-medium-up">Menu</a></li>
+              </ul>
+            </div>
+
+            <a name="welcome" class="wobble"></a>
+
+            <h3 id="content">Hello & Welcome!</h3>
+
+            <p>To our beloved family and friends,</p>
+
+            <p>The word is out. We're getting married! We are super excited to announce the venue & confirm the date - drumroll...<br/> 
+              It'll be taking place at <a href="http://www.chateau-de-cautine.com/">Chateau de Cautine</a>, Saint-Privat, Correze, France, on Saturday September 13th. We really hope to see you there!</p>
+
+            <p>Why France? we hear you ask.</p>
+            
+            <p>Well, several years ago we took a motorbike trip through the Dordogne region and simply put, we fell in love with the natural beauty of the area. The wine, the cheese, the food, the castles on every hilltop; this just sealed the deal. After 3 weeks of over indulgence, budget hostels and chaffing leather pants, 
+            we vowed to come back someday to do it with a little more style. So what more suitable a time than for our wedding!</p>
+
+            <p>As the old adage goes, time flies when you're having fun - this is definitely the case with us. 
+            Nine years, several jobs, houses, a world tour, some questionable fashion choices, and a litany of rescue cats later, we are overjoyed to enter this next chapter of our lives together. We can't think of a better way to kick things off than a weekend in France with our nearest and dearest; you are after all, the people who made us who we are. Truly, nothing could make us happier than to have you all there to celebrate with us.</p>
+
+            <p>All the information you need to prepare for our wedding is here on our website; Please come back to visit often! We’ll be continuously updating our site as we get closer to the wedding day.</p>
+
+            <p>Love,<br/>
+            Annie & Tim</p>
+
+            <hr/>
+
+            <a name="location" class="wobble"></a>
+            <h3>Location</h3>
+            <p>Chateau de Cautine, near Saint-Privat, Correze is situated in a rural location. The bigger nearby towns are Argentat, Tulle and Brive-la-Gaillarde. It is advisable to have a car to get around. 
+            <div id="map"></div>
+            <hr/>
+
+            <a name="travel" class="wobble"></a>
+            <h3>Travel</h3>
+            <h5>Flying</h5>
+            <p>There are a number of flight options depending on where you're coming from. From Dublin, <a href="http://www.aerlingus.com" target="_blank">Aer Lingus</a> flies to Bordeaux and Toulouse. <a href="http://ryanair.com/en/cheap-flights/?price=250&limit=15&offset=0&from=DUB&to=RDZ&out-date-start=2014-09-05&out-date-end=2014-09-13&in-date-start=2014-09-12&in-date-end=2014-09-20&roundtrip=1&min-trip=3&max-trip=7&view=map" target="_blank">Ryanair</a> flies to Tours and Rodez, which is closer. From London there are additional options with <a href="http://ryanair.com/en/cheap-flights/?price=250&limit=15&offset=0&from=STN&to=&out-date-start=2014-09-04&out-date-end=2014-09-13&in-date-start=2014-09-11&in-date-end=2014-09-20&roundtrip=1&min-trip=3&max-trip=7&view=map" target="_blank">Ryanair</a>, flying to Brive la Gaillarde, Limoges and Bergerac. Note that not all flights run on daily schedules. Also, as we're planning on a mid-afternoon celebration, there is the option of getting flights on the morning of the 13th.</p>
+            
+            <h5>Sailing & Driving</h5>
+            <p>If you'd rather drive over, <a href="http://www.irishferries.com/uk-en/to-france-from-ireland/" target="_blank">Irish Ferries</a> and <a href="http://www.brittanyferries.ie/ferry-routes/ireland-france-ferries" target="_blank">Brittany Ferries</a> operate routes from Ireland to either Roscoff or Cherbourg. From the UK there are more options again, including the <a href="http://www.eurotunnel.com/uk/home/" target="_blank">Eurotunnel</a>.</p>
+            
+            <h5>Getting Around</h5>
+            <p>Once on French soil, the most preferable mode of transport would be to hire a car. From the main airports listed, expect the drive to be between an hour or three depending on distance.</p>
+
+            <ul>
+                <li><a href="http://www.arguscarhire.com/">Argus Car Hire</a></li>
+            </ul>
+
+            <h5>Bus & Train</h5>
+            <p>Taking the train or bus is also an option from the main cities. By train, to Brive la Gaillarde or Aurillac from London via Paris the journey takes 8 hours, then bus to the village. There are 2 buses a day from outside Brive station to St Privat: 14.30 and 18.20pm.  There are no buses on Sunday or public holidays. Bus fare: €2 and we can pick you up from the village.</p>
+
+            <ul>
+                <li><a href="http://www.sncf.com/" target="_blank">SNCF Trains</a></li>
+                <li><a href="http://www.cg19.fr/fileadmin/user_upload/Amenagement_numerique/Transports/Transport_voyeurs/1117.pdf" target="_blank">Bus Timetable</a></li>
+            </ul>
+
+            <p>If you are in need of transportation in France, please give us your flight details and we can assess if there is demand for organising a private bus. Car rental is recommended however, as the area is quite remote and there are many sights you may want to visit which can only be reached by car.</p>
+
+            <hr/>
+
+            <a name="accommodation" class="wobble"></a>
+            <h3>Accommodation</h3>
+            <p>There is a variety of accommodation in the vicinity of Saint-Privat, Correze and the surrounding area. These range from basic camping to chateaus. There's something for every budget - here's a list of some of the options we've found:</p>
+
+            <h5>Camping / Cabins</h5>
+            <ul class="accommodation-list no-bullet">
+              <li>
+                <a href="http://www.tourismelimousin.com/diffusio/en/where-to-stay/ourtdoor-accommodation/servieres-le-chateau/camping-municipal-du-lac-de-feyt_TFO155000509.php">Lac du feyt</a> (1.5km - 4km). 2/3 bedroom cottages for 3 nights @ €130. Camper vans are around €5 per night. Bike rentals @ €11.60 a day/€20 for 2 days. mairieserviereslechateau@orange.fr
+              </li>
+            </ul>
+
+
+            <h5>Self Catering</h5>
+            <ul class="accommodation-list no-bullet">
+              <li>
+                <a href="http://www.homeaway.com/vacation-rental/p623057a" target="_blank">Lodging 3 Ears Mansion Fenced Park</a> ( Servieres le Chateau 3km)
+              </li>
+              <li>
+                <a href="http://www.homeaway.co.uk/p6181016" target="_blank">House With Garden</a> (Saint Privat 3km)
+              </li>
+              <li>
+                <a href="http://www.homeaway.co.uk/p1099635a" target="_blank">Cottage Rental: 1 Bedroom, Sleeps 12 In Servieres Le Chateau</a> (Servieres le Chateau 3km)
+              </li>
+              <li>
+                <a href="http://www.homeaway.com/vacation-rental/p58768?uni_id=40621&CID=a_cj_4122678&utm_source=cj&utm_medium=affiliates&utm_content=4122678&utm_campaign=10765121_" target="_blank">Le Four</a> (Saint-Cirgues-la-Loutre 8km)
+              </li>
+              <li>
+                <a href="http://www.booking.com/hotel/fr/logis-auberge-de-saint-julien-aux-bois.en-gb.html" target="_blank">Logis Auberge De Saint Julien Aux Bois</a> (Saint Julien Aux Bois 9km)
+              </li>
+              <li>
+                <a href="http://www.ownersdirect.co.uk/france/FR9717.htm" target="_blank">Manor House and Barn, ST Julien aux Bois, Limousin, Correze, France</a> (Saint Julien Aux Bois 9km)
+              </li>
+              <li>
+              <a href="http://www.homeaway.co.uk/p894133a" target="_blank">Cottage 4/6 2 Stars In House 1767</a> (Saleix 10km)
+              </li>
+              <li>
+                <a href="http://www.homeaway.co.uk/p1145354a" target="_blank">A Beautiful Farmhouse In The Dordogne Valley.</a> (Bassignac-le-Haut, 10km)
+              </li>
+              <li>
+                <a href="https://www.airbnb.ie/rooms/2271119?checkin=12-09-2014&checkout=15-09-2014&guests=2(Bassignac-le-Haut" target="_blank">Typical house with garden</a> 10km)
+              </li>
+              <li>
+                <a href="https://www.airbnb.ie/rooms/1423983?checkin=12-09-2014&checkout=15-09-2014&guests=2" target="_blank">house whith view on the river</a> (Argentat 14km)
+              </li>
+              <li>
+                <a href="http://www.holidaylettings.co.uk/rentals/argentat/1144025" target="_blank">Ymons Near Argentat</a> (Argentat 14km)
+              </li>
+              <li>
+                <a href="http://www.homeaway.co.uk/p1030503a" target="_blank">Large Family Home In A Restored Hamlet 2 Km From Argentat</a> (Argentat 16kms)
+              </li>
+            </ul>
+
+            <h5>Hotels</h5>
+            <ul class="accommodation-list no-bullet">
+              <li>
+                <a href="http://www.expedia.co.uk/Correze-Hotels-Auberge-De-La-Xaintrie.h4914460.Hotel-Information?chkin=05%2F06%2F2014&chkout=06%2F06%2F2014&rm1=a2&" target="_blank">Auberge de la Xaintrie</a> (Saint Privat 3km)
+              </li>
+              <li>
+                <a href="http://la-belle-epoque-correze.com/en-etablissement.html" target="_blank">La Belle Epoque</a>(Saint Privat 3km)
+              </li>
+              <li>
+                <a href="http://auberge-saint-julien.com/english/" target="_blank">Auberge de Saint-Julien-aux-Bois</a> (Saint Julien Aux Bois 9km)
+              </li>
+              <li>
+                <a href="http://www.lesmeyrandiers.com/la-maison/" target="_blank">Les meyrandiers</a> (Argentat 14km)
+              </li>
+              <li>
+                <a href="http://www.fouillade.com/hotel.html" target="_blank">Hotel Fouillade</a> (Argentat 14km)
+              </li>
+              <li>
+                <a href="http://sablier-du-temps.com/fr/lhotel" target="_blank">Au Sablier du Temps</a> (Argentat 14km)
+              </li>
+              <li>
+                <a href="http://www.accorhotels.com/gb/hotel-5711-mercure-correze-la-seniorie/location.shtml" target="_blank">Mercure Correze La Seniorie</a> (Corrèze 50km)
+              </li>
+            </ul>
+
+            <h5>B&Bs</h5>
+            <ul class="accommodation-list no-bullet">
+              <li>
+                <a href="http://www.booking.com/hotel/fr/domaine-du-sable.en-gb.html" target="_blank">Domaine du Sable</a> (Saint Privat 3km)
+              </li>
+              <li>
+                <a href="http://www.booking.com/hotel/fr/logis-auberge-de-saint-julien-aux-bois.en-gb.html" target="_blank">Logis Auberge De Saint Julien Aux Bois</a> (Saint-Julien-aux-Bois 9km) 
+              </li>
+            </ul>
+
+            <hr/>
+            
+            <a name="info" class="wobble"></a>
+            <h3>Local Info</h3>
+            <p>There's lots to do in the area, especially if you're into outdoorsy things or visiting historical sites. For now, we've listed a couple of local tourism websites to get you started:</p>
+
+            <ul class="">
+              <li>
+                <a href="http://www.tourismecorreze.com/us/">Tourisme Correze</a>
+              </li>
+              <li>
+                <a href="http://www.francethisway.com/places/a/saint-privat-correze.php">Saint-privat Tourism, Attractions And Travel Guide</a>
+              </li>
+              <li>
+                <a href="http://www.chateau-adventure.com/">Chateau Adventure</a> - Chateau de Cautine also offer outdoor and adventure activities.
+              </li>
+            </ul>
+            
+            <h5>More info to follow...</h5>
+            <p>We'll post more info about the day itself, local area information and activities.</p>
+            <hr/>
+            
+            <a name="rsvp" class="wobble"></a>
+            <h3>Répondez S'il Vous Plaît</h3>
+            <p>Please RSVP by July 31st. You can use the form below, or email us along with any questions @ <a href="mailto:rsvp@annieandtim.info">rsvp@annieandtim.info</a></p>
+
+            <div id="formContent">
+              <form method="post" action="">
+                <div class="row">
+                  <div class="large-6 small-12 columns">
+                    <label>Your Name
+                      <input type="text" name="name"/>
+                    </label>
                   </div>
-
-                  <a name="welcome" id="content"></a>
-
-                  <h3>Hello & Welcome!</h3>
-
-                  <p>To our beloved family and friends,</p>
-
-                  <p>The word is out. We're getting married! We are super excited to announce the venue & confirm the date - drumroll...<br/> 
-                    It'll be taking place at <a href="http://www.chateau-de-cautine.com/">Chateau de Cautine</a>, Saint-Privat, Correze, France, on Saturday September 13th. We really hope to see you there!</p>
-
-                  <p>Why France? we hear you ask.</p>
-                  
-                  <p>Well, several years ago we took a motorbike trip through the Dordogne region and simply put, we fell in love with the natural beauty of the area. The wine, the cheese, the food, the castles on every hilltop; this just sealed the deal. After 3 weeks of over indulgence, budget hostels and chaffing leather pants, 
-                  we vowed to come back someday to do it with a little more style. So what more suitable a time than for our wedding!</p>
-
-                  <p>As the old adage goes, time flies when you're having fun - this is definitely the case with us. 
-                  Nine years, several jobs, houses, a world tour, some questionable fashion choices, and a litany of rescue cats later, we are overjoyed to enter this next chapter of our lives together. We can't think of a better way to kick things off than a weekend in France with our nearest and dearest; you are after all, the people who made us who we are. Truly, nothing could make us happier than to have you all there to celebrate with us.</p>
-
-                  <p>All the information you need to prepare for our wedding is here on our website; Please come back to visit often! We’ll be continuously updating our site as we get closer to the wedding day.</p>
-
-                  <p>Love,<br/>
-                  Annie & Tim</p>
-
-                  <hr/>
-
-                  <a name="location"></a>
-                  <h3>Location</h3>
-                  <p>Chateau de Cautine, near Saint-Privat, Correze is situated in a rural location. The bigger nearby towns are Argentat, and Brive-la-Gaillarde. It is advisable to have a car to get around. 
-                  <div id="map"></div>
-                  <hr/>
-
-                  <a name="travel"></a>
-                  <h3>Travel</h3>
-                  
-                  <h5>Flying</h5>
-                  <p>There are a number of flight options depending on where you're coming from. From Dublin, <a href="http://www.aerlingus.com" target="_blank">Aer Lingus</a> flies to Bordeaux and Toulouse. <a href="http://ryanair.com/en/cheap-flights/?price=250&limit=15&offset=0&from=DUB&to=RDZ&out-date-start=2014-09-05&out-date-end=2014-09-13&in-date-start=2014-09-12&in-date-end=2014-09-20&roundtrip=1&min-trip=3&max-trip=7&view=map" target="_blank">Ryanair</a> flies to Rodez, which is closer. From London there are additional options with <a href="http://ryanair.com/en/cheap-flights/?price=250&limit=15&offset=0&from=STN&to=&out-date-start=2014-09-04&out-date-end=2014-09-13&in-date-start=2014-09-11&in-date-end=2014-09-20&roundtrip=1&min-trip=3&max-trip=7&view=map" target="_blank">Ryanair</a>, flying to Brive la Gaillarde, Limoges and Bergerac. Note that not all flights run on daily schedules. Also, as we're planning on a mid-afternoon celebration, there is the option of getting flights on the morning of the 13th.</p>
-                  
-                  <h5>Sailing & Driving</h5>
-                  <p>If you'd rather drive over, <a href="http://www.irishferries.com/uk-en/to-france-from-ireland/" target="_blank">Irish Ferries</a> and <a href="http://www.brittanyferries.ie/ferry-routes/ireland-france-ferries" target="_blank">Brittany Ferries</a> operate routes from Ireland to either Roscoff or Cherbourg. From the UK there are more options again, including the <a href="http://www.eurotunnel.com/uk/home/" target="_blank">Eurotunnel</a>.</p>
-                  
-                  <h5>Getting Around</h5>
-                  <p>Once on French soil, the most preferable mode of transport would be to hire a car. From the main airports listed, expect the drive to be between an hour or three depending on distance.</p>
-
-                  <ul>
-                      <li><a href="http://www.arguscarhire.com/">Argus Car Hire</a></li>
-                  </ul>
-
-                  <h5>Bus & Train</h5>
-                  <p>Taking the train or bus is also an option from the main cities. By train, to Brive la Gaillarde or Aurillac from London via Paris the journey takes 8 hours, then bus to the village. There are 2 buses a day from outside Brive station to St Privat: 14.30 and 18.20pm.  There are no buses on Sunday or public holidays. Bus fare: €2 and we can pick you up from the village.</p>
-
-                  <ul>
-                      <li><a href="http://www.sncf.com/" target="_blank">SNCF Trains</a></li>
-                      <li><a href="http://www.cg19.fr/fileadmin/user_upload/Amenagement_numerique/Transports/Transport_voyeurs/1117.pdf" target="_blank">Bus Timetable</a></li>
-                  </ul>
-
-                  <p>If you are in need of transportation in France, please give us your flight details and we can assess if there is demand for organising a private bus. Car rental is recommended however, as the area is quite remote and there are many sights you may want to visit which can only be reached by car.</p>
-
-                  <hr/>
-
-                  <a name="accommodation"></a>
-                  <h3>Accommodation</h3>
-                  <p>There is a variety of accommodation in the vicinity of Saint-Privat, Coreze and the surrounding area. These range from basic camping to chateaus. There's something for every budget - here's a list of some of the options we've found:</p>
-
-                  <h5>Camping / Cabins</h5>
-                  <ul class="accommodation-list no-bullet">
-                    <li>
-                      <a href="http://www.tourismelimousin.com/diffusio/en/where-to-stay/ourtdoor-accommodation/servieres-le-chateau/camping-municipal-du-lac-de-feyt_TFO155000509.php">Lac du feyt</a> (1.5km - 4km). 2/3 bedroom cottages for 3 nights @ €130. Camper vans are around €5 per night. Bike rentals @ €11.60 a day/€20 for 2 days. mairieserviereslechateau@orange.fr
-                    </li>
-                  </ul>
-
-
-                  <h5>Self Catering</h5>
-                  <ul class="accommodation-list no-bullet">
-                    <li>
-                      <a href="http://www.homeaway.com/vacation-rental/p623057a" target="_blank">Lodging 3 Ears Mansion Fenced Park</a> ( Servieres le Chateau 3km)
-                    </li>
-                    <li>
-                      <a href="http://www.homeaway.co.uk/p6181016" target="_blank">House With Garden</a> (Saint Privat 3km)
-                    </li>
-                    <li>
-                      <a href="http://www.homeaway.co.uk/p1099635a" target="_blank">Cottage Rental: 1 Bedroom, Sleeps 12 In Servieres Le Chateau</a> (Servieres le Chateau 3km)
-                    </li>
-                    <li>
-                      <a href="http://www.homeaway.com/vacation-rental/p58768?uni_id=40621&CID=a_cj_4122678&utm_source=cj&utm_medium=affiliates&utm_content=4122678&utm_campaign=10765121_" target="_blank">Le Four</a> (Saint-Cirgues-la-Loutre 8km)
-                    </li>
-                    <li>
-                      <a href="http://www.booking.com/hotel/fr/logis-auberge-de-saint-julien-aux-bois.en-gb.html" target="_blank">Logis Auberge De Saint Julien Aux Bois</a> (Saint Julien Aux Bois 9km)
-                    </li>
-                    <li>
-                      <a href="http://www.ownersdirect.co.uk/france/FR9717.htm" target="_blank">Manor House and Barn, ST Julien aux Bois, Limousin, Correze, France</a> (Saint Julien Aux Bois 9km)
-                    </li>
-                    <li>
-                    <a href="http://www.homeaway.co.uk/p894133a" target="_blank">Cottage 4/6 2 Stars In House 1767</a> (Saleix 10km)
-                    </li>
-                    <li>
-                      <a href="http://www.homeaway.co.uk/p1145354a" target="_blank">A Beautiful Farmhouse In The Dordogne Valley.</a> (Bassignac-le-Haut, 10km)
-                    </li>
-                    <li>
-                      <a href="https://www.airbnb.ie/rooms/2271119?checkin=12-09-2014&checkout=15-09-2014&guests=2(Bassignac-le-Haut" target="_blank">Typical house with garden</a> 10km)
-                    </li>
-                    <li>
-                      <a href="https://www.airbnb.ie/rooms/1423983?checkin=12-09-2014&checkout=15-09-2014&guests=2" target="_blank">house whith view on the river</a> (Argentat 14km)
-                    </li>
-                    <li>
-                      <a href="http://www.holidaylettings.co.uk/rentals/argentat/1144025" target="_blank">Ymons Near Argentat</a> (Argentat 14km)
-                    </li>
-                    <li>
-                      <a href="http://www.homeaway.co.uk/p1030503a" target="_blank">Large Family Home In A Restored Hamlet 2 Km From Argentat</a> (Argentat 16kms)
-                    </li>
-                  </ul>
-
-                  <h5>Hotels</h5>
-                  <ul class="accommodation-list no-bullet">
-                    <li>
-                      <a href="http://www.expedia.co.uk/Correze-Hotels-Auberge-De-La-Xaintrie.h4914460.Hotel-Information?chkin=05%2F06%2F2014&chkout=06%2F06%2F2014&rm1=a2&" target="_blank">Auberge de la Xaintrie</a> (Saint Privat 3km)
-                    </li>
-                    <li>
-                      <a href="http://la-belle-epoque-correze.com/en-etablissement.html" target="_blank">La Belle Epoque</a>(Saint Privat 3km)
-                    </li>
-                    <li>
-                      <a href="http://auberge-saint-julien.com/english/" target="_blank">Auberge de Saint-Julien-aux-Bois</a> (Saint Julien Aux Bois 9km)
-                    </li>
-                    <li>
-                      <a href="http://www.lesmeyrandiers.com/la-maison/" target="_blank">Les meyrandiers</a> (Argentat 14km)
-                    </li>
-                    <li>
-                      <a href="http://www.fouillade.com/hotel.html" target="_blank">Hotel Fouillade</a> (Argentat 14km)
-                    </li>
-                    <li>
-                      <a href="http://sablier-du-temps.com/fr/lhotel" target="_blank">Au Sablier du Temps</a> (Argentat 14km)
-                    </li>
-                    <li>
-                      <a href="http://www.accorhotels.com/gb/hotel-5711-mercure-correze-la-seniorie/location.shtml" target="_blank">Mercure Correze La Seniorie</a> (Corrèze 50km)
-                    </li>
-                  </ul>
-
-                  <h5>B&Bs</h5>
-                  <ul class="accommodation-list no-bullet">
-                    <li>
-                      <a href="http://www.booking.com/hotel/fr/domaine-du-sable.en-gb.html" target="_blank">Domaine du Sable</a> (Saint Privat 3km)
-                    </li>
-                    <li>
-                      <a href="http://www.booking.com/hotel/fr/logis-auberge-de-saint-julien-aux-bois.en-gb.html" target="_blank">Logis Auberge De Saint Julien Aux Bois</a> (Saint-Julien-aux-Bois 9km) 
-                    </li>
-                  </ul>
-
-                  <hr/>
-                  
-                  <a name="info"></a>
-                  <h3>Local Info</h3>
-                  <p>There's lots to do in the area, especially if you're in to outdoorsy things or visiting historical sites. For now, we've listed a couple of local tourism websites to get you started:</p>
-
-                  <ul class="">
-                    <li>
-                      <a href="http://www.tourismecorreze.com/us/">Tourisme Correze</a>
-                    </li>
-                    <li>
-                    <a href="http://www.francethisway.com/places/a/saint-privat-correze.php">Saint-privat Tourism, Attractions And Travel Guide</a>
-                    </li>
-                  </ul>
-                  
-                  <h5>More info to follow...</h5>
-                  <p>We'll post more info about the day itself, local area information and activities.</p>
-                  <hr/>
-                  
-                  <a name="rsvp"></a>
-                  <h3>Répondez S'il Vous Plaît</h3>
-                  <p>Please RSVP by July 31st. You can use the form below, or email us along with any questions @ <a href="mailto:rsvp@annieandtim.info">rsvp@annieandtim.info</a></p>
-
-                  <div id="formContent">
-                    <form method="post" action="">
-                      <div class="row">
-                        <div class="large-6 small-12 columns">
-                          <label>Your Name
-                            <input type="text" name="name"/>
-                          </label>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="large-6 small-12 columns">
-                          <label>Your Email or Phone Number (optional)
-                            <input type="text" name="contact"/>
-                          </label>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="large-6 small-12 columns">
-                          <label>Are you planning on attending?</label>
-                          <input type="radio" name="attending" value="Yes" id="attendingYes"><label for="attendingYes">Yes</label>
-                          <input type="radio" name="attending" value="No" id="attedningNo"><label for="attendingNo">No</label>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="large-6 small-12 columns">
-                          <label>Comments or Questions?
-                            <textarea name="comments"></textarea>
-                          </label>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="large-6 small-12 columns">
-                          <input id="submit_btn" type="submit" name="submit" value="Send" class="small button"/>
-                        </div>
-                      </div>
-                    </form>
+                </div>
+                <div class="row">
+                  <div class="large-6 small-12 columns">
+                    <label>Your Email or Phone Number (optional)
+                      <input type="text" name="contact"/>
+                    </label>
                   </div>
+                </div>
+                <div class="row">
+                  <div class="large-6 small-12 columns">
+                    <label>Are you planning on attending?</label>
+                    <input type="radio" name="attending" value="Yes" id="attendingYes"><label for="attendingYes">Yes</label>
+                    <input type="radio" name="attending" value="No" id="attedningNo"><label for="attendingNo">No</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="large-6 small-12 columns">
+                    <label>Comments or Questions?
+                      <textarea name="comments"></textarea>
+                    </label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="large-6 small-12 columns">
+                    <input id="submit_btn" type="submit" name="submit" value="Send" class="small button"/>
+                  </div>
+                </div>
+              </form>
+            </div>
 
 
-                  <div id="result"></div>
+            <div id="result"></div>
 
-                  <hr/>
+            <hr/>
 
-              </div>
-          </div>
+            <a name="menu"></a>
 
-          <script type="text/javascript" src="js/jquery.min.js"></script>
-          <script type="text/javascript" src="js/jquery.sticky.js"></script>
-          <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUYxdTL2YNbWr0j_o-qsld4_Gf6fy7XTA&sensor=false"></script>
+            <div class="show-for-small">
+              <h5>Menu</h5>
+              <ul class="no-bullet">
+                <li><a href="#welcome" class="scroll-to">Home</a></li>
+                <li><a href="#location" class="scroll-to">Location</a></li>
+                <li><a href="#travel" class="scroll-to">Travel</a></li>
+                <li><a href="#accommodation" class="scroll-to">Accommodation</a></li>
+                <li><a href="#info" class="scroll-to">Local Info</a></li>
+                <li><a href="#rsvp" class="scroll-to">RSVP</a></li>
+              </ul>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+    <script type="text/javascript" src="js/jquery.jrumble.1.3.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUYxdTL2YNbWr0j_o-qsld4_Gf6fy7XTA&sensor=false"></script>
 
 
-          <script type="text/javascript">
-            google.maps.event.addDomListener(window, 'load', init);
+    <script type="text/javascript">
+      google.maps.event.addDomListener(window, 'load', init);
+  
+      function init() {
+      var chateau = new google.maps.LatLng(45.148249,2.053758);
+      var mapOptions = {
+          zoom: 7,
+          center: chateau,
+          styles: [
+          {
+              "featureType": "water",
+              "elementType": "geometry",
+              "stylers": [
+                  {
+                      "color": "#01487e"
+                  },
+                  {
+                      "lightness": 95
+                  },
+                  {
+                      "saturation": -40
+                  }
+              ]
+          },
+          {
+              "featureType": "landscape",
+              "elementType": "geometry",
+              "stylers": [
+                  {
+                      "saturation": -100
+                  },
+                  {
+                  "lightness": 100
+                  }
+              ]
+          },
+          {
+              "featureType": "poi",
+              "elementType": "geometry",
+              "stylers": [
+                  {
+                      "color": "#FFF"
+                  }
+              ]
+          },
+          {
+              "featureType": "road.highway",
+              "elementType": "geometry",
+              "stylers": [
+                  {
+                      "color": "#01487e"
+                  }
+              ]
+          },
+          {
+              "featureType": "road.arterial",
+              "elementType": "geometry",
+              "stylers": [
+                  {
+                      "color": "#01487e"
+                  },
+                  {
+                      "lightness": 86
+                  },
+                  {
+                      "saturation": -60
+                  }
+              ]
+          },
+          {
+              "featureType": "road.local",
+              "elementType": "geometry",
+              "stylers": [
+                  {
+                      "color": "#FFF"
+                  },
+                  {
+                      "lightness": -17
+                  }
+              ]
+          },
+          {
+              "elementType": "labels.text.stroke",
+              "stylers": [
+                  {
+                      "color": "#ffffff"
+                  },
+                  {
+                      "visibility": "on"
+                  },
+                  {
+                      "weight": 3
+                  }
+              ]
+          },
+          {
+              "elementType": "labels.text.fill",
+              "stylers": [
+                  {
+                      "visibility": "on"
+                  },
+                  {
+                      "color": "#01487e"
+                  }
+              ]
+          },
+          {
+              "featureType": "poi",
+              "elementType": "labels",
+              "stylers": [
+                  {
+                      "visibility": "simplified"
+                  }
+              ]
+          },
+          {
+              "elementType": "labels.icon",
+              "stylers": [
+                  {
+                      "visibility": "off"
+                  }
+              ]
+          },
+          {
+              "featureType": "transit",
+              "elementType": "geometry",
+              "stylers": [
+                  {
+                      "color": "#FFF"
+                  },
+                  {
+                      "lightness": -10
+                  }
+              ]
+          },
+          {},
+          {
+              "featureType": "administrative",
+              "elementType": "geometry",
+              "stylers": [
+                  {
+                      "color": "#FFF"
+                  },
+                  {
+                      "weight": 0.7
+                  }
+              ]
+          }
+      ]
+      };
+      var mapElement = document.getElementById('map');
+      var map = new google.maps.Map(mapElement, mapOptions);
+      var marker = new google.maps.Marker({
+          position: chateau,
+          map: map,
+          title:"Chateau Cautine"
+      });
+      }
+
+      $(document).ready(function(){
         
-            function init() {
-            var chateau = new google.maps.LatLng(45.148249,2.053758);
-            var mapOptions = {
-                zoom: 7,
-                center: chateau,
-                styles: [
-                {
-                    "featureType": "water",
-                    "elementType": "geometry",
-                    "stylers": [
-                        {
-                            "color": "#01487e"
-                        },
-                        {
-                            "lightness": 95
-                        },
-                        {
-                            "saturation": -40
-                        }
-                    ]
-                },
-                {
-                    "featureType": "landscape",
-                    "elementType": "geometry",
-                    "stylers": [
-                        {
-                            "saturation": -100
-                        },
-                        {
-                        "lightness": 100
-                        }
-                    ]
-                },
-                {
-                    "featureType": "poi",
-                    "elementType": "geometry",
-                    "stylers": [
-                        {
-                            "color": "#FFF"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "road.highway",
-                    "elementType": "geometry",
-                    "stylers": [
-                        {
-                            "color": "#01487e"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "road.arterial",
-                    "elementType": "geometry",
-                    "stylers": [
-                        {
-                            "color": "#01487e"
-                        },
-                        {
-                            "lightness": 86
-                        },
-                        {
-                            "saturation": -60
-                        }
-                    ]
-                },
-                {
-                    "featureType": "road.local",
-                    "elementType": "geometry",
-                    "stylers": [
-                        {
-                            "color": "#FFF"
-                        },
-                        {
-                            "lightness": -17
-                        }
-                    ]
-                },
-                {
-                    "elementType": "labels.text.stroke",
-                    "stylers": [
-                        {
-                            "color": "#ffffff"
-                        },
-                        {
-                            "visibility": "on"
-                        },
-                        {
-                            "weight": 3
-                        }
-                    ]
-                },
-                {
-                    "elementType": "labels.text.fill",
-                    "stylers": [
-                        {
-                            "visibility": "on"
-                        },
-                        {
-                            "color": "#01487e"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "poi",
-                    "elementType": "labels",
-                    "stylers": [
-                        {
-                            "visibility": "simplified"
-                        }
-                    ]
-                },
-                {
-                    "elementType": "labels.icon",
-                    "stylers": [
-                        {
-                            "visibility": "off"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "transit",
-                    "elementType": "geometry",
-                    "stylers": [
-                        {
-                            "color": "#FFF"
-                        },
-                        {
-                            "lightness": -10
-                        }
-                    ]
-                },
-                {},
-                {
-                    "featureType": "administrative",
-                    "elementType": "geometry",
-                    "stylers": [
-                        {
-                            "color": "#FFF"
-                        },
-                        {
-                            "weight": 0.7
-                        }
-                    ]
-                }
-            ]
-            };
-            var mapElement = document.getElementById('map');
-            var map = new google.maps.Map(mapElement, mapOptions);
-            var marker = new google.maps.Marker({
-                position: chateau,
-                map: map,
-                title:"Chateau Cautine"
-            });
-            }
+        // sticky nav
+        $("#sticky").sticky({topSpacing:0});
 
-            $(document).ready(function(){
+        // anchor links
+        $('.scroll-to').click( function (e) {
+
+          var target = e.target.href.split('#')[1],
+              body = $("html, body");
+          
+          body.animate({scrollTop: $('a[name=' + target + ']').position().top+35 }, '500', 'swing', function() { 
+             
+          });
+          
+          return false;
+        });
+
+        // wobble images
+        var loadWobbleImg = function (t) {
+          t.css('background-image', 'url(img/wobblers/' + (Math.floor(Math.random() * 16) + 0) + '.gif)' );
+        }
+        var throwWobbler = function (t) {
+          t.trigger('startRumble');
+          setTimeout(function () {
+            t.trigger('stopRumble');
+          }, 500);
+        };
+
+        $('.wobble').jrumble();
+        $('.wobble').each( function (e, f) {
+          loadWobbleImg( $(f) );
+        });
+        $('.wobble').on('mouseover', function (e) {
+          loadWobbleImg( $(e.target) );
+          throwWobbler( $(e.target) );
+        });
+        $('.wobble').on('click', function (e) {
+          loadWobbleImg( $(e.target) );
+          throwWobbler( $(e.target) );
+        });
+
+        // rsvp form
+        $("#submit_btn").click(function() { 
+  
+          //data to be sent to server
+          post_data = {
+            'name': $('input[name=name]').val(), 
+            'contact': $('input[name=contact]').val(), 
+            'response': $('input[name=attending]').val(), 
+            'comments': $('textarea[name=comments]').val()
+          };
+          
+          //Ajax post data to server
+          $.post('contact.php', post_data, function(response){  
               
-              $("#sticky").sticky({topSpacing:0});
-
-              $('.scroll-to').click( function (e) {
-
-                var target = e.target.href.split('#')[1],
-                    body = $("html, body");
-                
-                body.animate({scrollTop: $('a[name=' + target + ']').position().top+35 }, '500', 'swing', function() { 
-                   
-                });
-                
-                return false;
-              });
-
+              //load json data from server and output message     
+              if(response.type == 'error')
+              {
+                  output = '<div class="error">'+response.text+'</div>';
+              }else{
               
+                  output = '<div class="success">'+response.text+'</div>';
+                  
+                  //reset values in all input fields
+                  $('#contact_form input').val(''); 
+                  $('#contact_form textarea').val(''); 
+              }
+              $('#formContent').hide();
+              $("#result").hide().html(output).slideDown();
+          }, 'json');
 
-              $("#submit_btn").click(function() { 
-        
-                //data to be sent to server
-                post_data = {
-                  'name': $('input[name=name]').val(), 
-                  'contact': $('input[name=contact]').val(), 
-                  'response': $('input[name=attending]').val(), 
-                  'comments': $('textarea[name=comments]').val()
-                };
-                
-                //Ajax post data to server
-                $.post('contact.php', post_data, function(response){  
-                    
-                    //load json data from server and output message     
-                    if(response.type == 'error')
-                    {
-                        output = '<div class="error">'+response.text+'</div>';
-                    }else{
-                    
-                        output = '<div class="success">'+response.text+'</div>';
-                        
-                        //reset values in all input fields
-                        $('#contact_form input').val(''); 
-                        $('#contact_form textarea').val(''); 
-                    }
-                    $('#formContent').hide();
-                    $("#result").hide().html(output).slideDown();
-                }, 'json');
+          return false;
+     
+        });
+      });
 
-                return false;
-           
-              });
-            });
-
-          </script>
-        </body>
-    </html>
+    </script>
+  </body>
+</html>
