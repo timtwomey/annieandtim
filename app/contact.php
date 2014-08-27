@@ -23,6 +23,7 @@
     $user_contact       = filter_var($_POST["contact"], FILTER_SANITIZE_EMAIL);
     $user_response       = filter_var($_POST["response"], FILTER_SANITIZE_STRING);
     $user_comments     = filter_var($_POST["comments"], FILTER_SANITIZE_STRING);
+    $user_bus     = filter_var($_POST["bus"], FILTER_SANITIZE_STRING);
     
     
     //proceed with PHP email.
@@ -31,7 +32,7 @@
     'X-Mailer: PHP/' . phpversion();
     
         // send mail
-    $sentMail = @mail($to_Email, $subject, $_POST["name"].' - '.$user_contact.' - '.$user_response.' - '.$user_comments, $headers);
+    $sentMail = @mail($to_Email, $subject, $_POST["name"].' - '.$user_contact.' - '.$user_response.' - '.$user_comments.' - '.$user_bus, $headers);
     
     if(!$sentMail)
     {

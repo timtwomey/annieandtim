@@ -139,6 +139,12 @@ a:hover {
   display: block;
   margin-top: $rem-base*1.5;
 }
+#busOption {
+  padding: $rem-base 0;
+  input {
+   margin-right: $rem-base/2;
+  }
+}
 .rsvp-button {
   position: absolute;
   top: 16px;
@@ -154,8 +160,7 @@ a:hover {
   margin-bottom: 0;
 }
 .main-content {
-  margin-bottom: 270px;
-    
+  margin-bottom: 270px;   
 }
 .accommodation-list {
   li {
